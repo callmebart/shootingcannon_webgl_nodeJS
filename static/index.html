@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Armata Serwerowe</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="libs/jquery.js"></script>
+    <script src="libs/three.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+    <script src="js/Armata.js"></script>
+    <script src="js/Kula.js"></script>
+    <script src="js/Main.js"></script>
+   
+
+
+    <script>
+        var main;
+        $(document).ready(function () {
+            main = new Main();
+        })
+       
+    </script>
+</head>
+
+<body>
+
+    Obrot<input type="range" id="obrot"min="0" max="6.28" step="0.1" val="0">
+     Kąt lufy<input type="range" id="kat" min="0" max="1.57" step="0.1">
+    <button type="submit" id="shot" name="shot">SHOT</button>
+    <div id="root">
+
+    </div>
+</body>
+
+</html>

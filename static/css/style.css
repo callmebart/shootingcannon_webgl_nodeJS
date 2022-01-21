@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+input{
+    display: block;
+}
+button{
+    position: absolute;
+    top:85px;
+    width:130px;
+}
